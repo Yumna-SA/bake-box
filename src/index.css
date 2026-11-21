@@ -137,3 +137,48 @@ h2 {
   margin: 0;
   color: #6b5a5e;
 }
+
+.order-box {
+  background: white;
+  border: 2px dashed #7b1e22;
+  border-radius: 12px;
+  padding: 28px;
+  margin-top: 32px;
+}
+
+.order-box h2 {
+  margin: 0 0 12px;
+}
+
+.order-box p {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.order-total {
+  color: #7b1e22;
+  font-size: 26px !important;
+  font-weight: bold;
+  margin-top: 12px !important;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  background: #2a2024;
+  color: white;
+  border-radius: 12px;
+  padding: 28px;
+  margin-top: 32px;
+}
+
+.footer-block h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.footer-block p {
+  margin: 0;
+  color: #d8cdd0;
+}
