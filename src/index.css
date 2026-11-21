@@ -40,3 +40,57 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
+h2 {
+  color: #7b1e22;
+  font-size: 28px;
+  margin: 32px 0 16px;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  background: white;
+  border: 1px solid #eaddd3;
+  border-radius: 12px;
+  padding: 36px 20px 20px;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 22px;
+}
+
+.card-desc {
+  margin: 0 0 8px;
+  color: #6b5a5e;
+}
+
+.price {
+  margin: 0;
+  color: #7b1e22;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #f4b942;
+  color: #5a3a00;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.badge-new {
+  background: #2e7d32;
+  color: white;
+}
