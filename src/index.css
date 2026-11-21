@@ -94,3 +94,46 @@ h2 {
   background: #2e7d32;
   color: white;
 }
+
+.review-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border: 1px solid #eaddd3;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #c98a8f;
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.rating {
+  color: #f4b942;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.review-body p {
+  margin: 0;
+  color: #6b5a5e;
+}
