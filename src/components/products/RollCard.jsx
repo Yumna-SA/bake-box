@@ -5,10 +5,10 @@ function RollCard() {
 
   return (
     <div className="card">
-      <Badge />
-      <h3>Cinnamon Rolls</h3>
-      <p className="card-desc">Box of 4, with cream cheese</p>
-      <p className="price">Rs {price}</p>
+    <Badge text="Bestseller" />      
+    <h3>Cinnamon Rolls</h3>
+    <p className="card-desc">Box of 4, with cream cheese</p>
+    <p className="price">Rs {price}</p>
     </div>
   );
 }
